@@ -1,4 +1,4 @@
-module libclash
+module github.com/loafman-kangjun/libclash
 
 go 1.24.5
 
