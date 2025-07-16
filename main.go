@@ -4,7 +4,7 @@ import (
     "fmt"
     "os"
 
-    "libclash/libcore"
+    "github.com/loafman-kangjun/libclash/libcore"
 )
 
 func main() {

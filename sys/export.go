@@ -1,6 +1,3 @@
-//go:build cgo
-// +build cgo
-
 package main            // ⚠️ 必须是 main，才能被 -buildmode=c-shared 导出
 
 /*
@@ -24,7 +21,7 @@ import (
 	"unsafe"
 
 	"github.com/metacubex/mihomo/log"
-	"github.com/loafman-kangjun/libclash"   // ← 改成实际 import 路径
+	"github.com/loafman-kangjun/libclash/libcore"   // ← 改成实际 import 路径
 )
 
 // ---------------- 公共工具 ----------------
