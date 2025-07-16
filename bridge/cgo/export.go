@@ -1,4 +1,4 @@
-package main            // ⚠️ 必须是 main，才能被 -buildmode=c-shared 导出
+package main
 
 /*
 #include <stdbool.h>
